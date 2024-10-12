@@ -1,4 +1,4 @@
-FUNCTION get_range_name(ip_address IN VARCHAR2) RETURN VARCHAR2 IS
+CREATE OR REPLACE PACKAGE FUNCTION get_range_name(ip_address IN VARCHAR2) RETURN VARCHAR2 IS
     v_range_name VARCHAR2(100);
     
     -- Function to convert dotted IP address to a numeric value
